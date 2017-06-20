@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+CEP 2017
+KS4 chemistry
+-->
+<html>
+    <head>
+        <title>Ions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="../css/fiona_css_1.css">
+        <link rel='stylesheet' type="text/css" href="../css/ionCharge.css">
+        <script src="../javascript/fiona_javascript_1.js"></script>
+        <script src="../javascript/ionCharge.js"></script>
+    </head>
+    <body>
+        
+        <div>
+            <header><h1>Ion Charges</h1>
+                This page is designed to help learn about the charges on common simple ions
+            </header>
+            <div id="icMain">Ions loose or gain electrons in order to acquire a full outer shell.
+                Revise electron structure of atoms and ions here<br>
+                How to work out the likely electron structure and charge on an ion<br>
+                <ul>
+                    <li>If the outer shell is full the element is unlikely to form ions</li> 
+                    <li>If outer shell not full, add or remove electrons until a full shell is achieved</li>
+                    <li>Do whichever takes least electrons</li>
+                    <li>If you added electrons you made a negative ion</li>
+                    <li>If you removed electrons you made a positive ion</li>
+                </ul>
+                <div><table>
+                        <tr>
+                            <td>Atom Formula</td>
+                            <td>Charge on it's Ions</td>
+                            
+                        </tr>
+                        <tr>
+                            
+                            <td id="ionSymbol"></td>
+                            <td><textarea id="ionCharge"></textarea></td>
+                        </tr>
+                    </table>
+                    <button onclick="selectElement()">select ion</button>
+                    <button onclick="checkAnswer()">check</button>
+                    <div id="ionResponse"></div>
+                </div>
+            </div>
+            <div id="RSCperiodicTable"><img id="periodicTableImage" onclick="periodicTableWindow()" src="../images/periodicTable/IUPAC_Periodic_Table-8Jan16.jpg" alt="oops" ></div>
+            
+            <footer>
+                <h3>Navigation Area</h3>
+                <button style= "cursor:default;"  onclick="href=window.location.href='KS4Chemistry.html'" >Return to GCSE Chemistry Page</button>
+            </footer>
+        </div>
+        
+    </body>
+</html>

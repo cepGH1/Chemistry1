@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         
+        <link rel='stylesheet' type="text/css" href="../css/fiona_css_1.css">
+        <link rel='stylesheet' type="text/css" href="../css/pairs.css">
+        <script src="../javascript/fiona_javascript_1.js"></script>
+        <script src="../javascript/pairs1.js"></script>
+        <script src="../javascript/ionCharge.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <header><h1>Ions</h1></header>
+        <div><p>Select the name of the Ion shown by pressing the 
+                button with the groups name on it</p>
+            <div>
+        <button onclick="displayRandomImage()">Select Ion Structure</button>
+        <button onclick="startAgain()">Start Again</button>
+        <button onclick="displayIonAnswers()">Ions Answer Sheet</button>
+            </div>
+        <div id="toBegin">.</div>
+        </div>
+        <div id="separator">
+        <div id="fgStructure1"></div>
+                <div id="fgTable1">
+                    <table id="fgTable2" >
+                        <thead>Possible Functional Groups</thead>
+                        <tbody>
+                        <tr id="fgRow1">
+                            <td><button onclick="correctId(0)">Sulfate</button></td>
+                            <td><button onclick="correctId(1)">Nitrate</button></td>
+                            <td><button onclick="correctId(2)">Ammonium</button></td>
+                        </tr>
+                         <tr>
+                            <td><button onclick="correctId(3)">Phosphate</button></td>
+                            <td><button onclick="correctId(4)">Hydroxide</button></td>
+                            <td><button onclick="correctId(5)">Hydrogencarbonate</button></td>
+                        </tr>
+                         <tr>
+                            <td><button onclick="correctId(6)">Carbonate</button></td>
+                            <td><button onclick="correctId(7)">Chloride</button></td>
+                            <td><button onclick="correctId(8)">Bromide</button></td>
+                        </tr>
+                         <tr>
+                            <td><button onclick="correctId(9)">Fluoride</button></td>
+                            <td><button onclick="correctId(10)">Iodide</button></td>
+                            <td><button onclick="correctId(11)">Sulphide</button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+        
+        <div id="pairsResults">
+            <table id="resultTable">
+                <tr>
+                    <td>Formula</td>
+                    <td>Name</td>
+                    <td>Formula</td>
+                    <td>Name</td>
+                </tr>
+                <tr>
+                    <td id ="structureRow0"></td>
+                    <td id = "nameRow0"></td>
+                    <td id="structureRow1"></td>
+                    <td id="nameRow1"></td>
+                </tr>
+
+                <tr>
+                    <td id="structureRow2"></td>
+                    <td id = "nameRow2"></td>
+                      <td id="structureRow3"></td>
+                    <td id = "nameRow3"></td>
+                </tr>
+              
+                <tr>
+                    <td id="structureRow4"></td>
+                    <td id = "nameRow4"></td>
+                    <td id="structureRow5"></td>
+                    <td id = "nameRow5"></td>
+                </tr>
+
+                <tr>
+                    <td id="structureRow6"></td>
+                    <td id="nameRow6"></td>
+                    <td id="structureRow7"></td>
+                    <td id="nameRow7"></td>
+                </tr>
+
+                 <tr>
+                    <td id="structureRow8"></td>
+                    <td id="nameRow8"></td>
+                     <td id="structureRow9"></td>
+                    <td id="nameRow9"></td>
+                </tr>
+              
+                 <tr>
+                    <td id="structureRow10"></td>
+                    <td id="nameRow10"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+               
+            </table>
+        </div>
+        
+         <footer>
+                <h3>Navigation Area</h3>
+                <button style= "cursor:pointer"  onclick="href=window.location.href='KS4Chemistry.html'" >Return to GCSE Chemistry Page</button>
+            </footer>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>electronic configuration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../javascript/fiona_javascript_1.js"></script>
+        <script src="../javascript/electronGame.js"></script>
+        <link rel='stylesheet' type="text/css" href="../css/fiona_css_1.css">
+    </head>
+    <body>
+        <div id="success">
+            
+        
+        <h1>Electronic Configuration</h1>
+        <div>
+        <p>Press the Element button to select an element at random 
+            from the first 100 elements of the periodic table</p>
+        <p><button onclick="getElement()">Element</button></p>
+         <p id="elementGenerator"></p>
+        </div>
+        
+        <div id="scorer"><h3>Score</h3>
+            <p id="score"></p>
+        </div>
+        
+        <div> <div id="inner1">e Levels</div>
+         
+        <button onclick="levelButtonPressed(1)">1</button>
+        <button onclick="levelButtonPressed(2)">2</button>
+        <button onclick="levelButtonPressed(3)">3</button>
+        <button onclick="levelButtonPressed(4)">4</button>
+        <button onclick="levelButtonPressed(5)">5</button>
+        <button onclick="levelButtonPressed(6)">6</button>
+        <button onclick="levelButtonPressed(7)">7</button>
+        <p></p>
+        </div>
+        <div> <div id="inner1">Shells</div>
+        <button onclick="levelButtonPressed('S')">S</button>
+        <button onclick="levelButtonPressed('P')">P</button>
+        <button onclick="levelButtonPressed('D')">D</button>
+        <button onclick="levelButtonPressed('F')">F</button>
+        <p></p>
+        </div>
+        <div> <div id="inner1">Number of electrons</div> 
+            <button onclick="electronButtonPressed(1)">1</button>
+        <button onclick="electronButtonPressed(2)">2</button>
+        <button onclick="electronButtonPressed(3)">3</button>
+        <button onclick="electronButtonPressed(4)">4</button>
+        <button onclick="electronButtonPressed(5)">5</button>
+        <button onclick="electronButtonPressed(6)">6</button>
+        <button onclick="electronButtonPressed(7)">7</button>
+        <button onclick="electronButtonPressed(8)">8</button>
+        <button onclick="electronButtonPressed(9)">9</button>
+        <button onclick="electronButtonPressed(10)">10</button>
+        <button onclick="electronButtonPressed(11)">11</button>
+        <button onclick="electronButtonPressed(12)">12</button>
+        <button onclick="electronButtonPressed(13)">13</button>
+        <button onclick="electronButtonPressed(14)">14</button></div>
+        <div><p>Construct the electronic configuration, choosing the levels,
+                shells and numbers of electrons with the buttons above</p>
+            <p id="inputConfiguration"></p>
+        </div>
+        <div><p>Press the check button to see if you selected correctly</p>
+            <button onclick="goCompare()">Check Configuration</button></div>
+        <p id="result"></p>
+        <img id="myImage" src="">
+        <div><a  href="electronic_configuration_1.html">Back to electronic configuration page</a><br></div>
+        </div>
+     </body>
+</html>

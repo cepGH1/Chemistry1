@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Online practise page for calculating oxidation numbers
+Clare Pritchard 2016
+-->
+<html>
+    <head>
+        <title>Oxidation Numbers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../javascript/oxidationNumbers.js"></script>
+        <link rel='stylesheet' type="text/css" href="../css/fiona_css_1.css">
+    </head>
+    <body>
+        <div><h1>Oxidation Numbers</h1></div>
+        <div id='layoutLeft45'><h2>How to work them out</h2>
+            <p>There are a few rules to remember in order to do this</p>
+          
+                <table id='list1'> 
+                    <tr><td>1. </td><td>Neutral elements have oxidation number 0 (Neutral:None)</td></tr>
+                    <tr><td>2.</td><td> the oxidation number of a monatomic ion is the same as it's charge<br>
+                eg. Na+ = +1, and Mg2+ = +2</td></tr>
+                    <tr><td>3.</td><td> The sum of the Oxidation Numbers in a thing is always equal to it's charge<br>
+                            ie. if it is overall neutral then the oxidation numbers add up to 0</td></tr>
+                    <tr><td>4.</td><td> Group 1 and 2 elements have oxidation numbers +1 and +2 respectively</td></tr>
+                    <tr><td>5.</td><td> O has oxidation number -2 unless it is bonded to F </td></tr>
+                    <tr><td>6.</td><td> F always has oxidation number -1 in it's compounds</td></tr>
+                </table>
+            </div>
+      <div id='layoutRight45'>
+        <div>
+            <h2>Test yourself on calculating oxidation numbers</h2>
+            <p> Press 'New Compound' button to select a compound. <button onclick="oxidationNumberQuiz()">New Compound</button></p></div>
+        <div id="oxidationNumbers1">
+            
+            <div id="intro"><p></p></div>
+          
+         <div id="testTable"></div>
+        </div>
+        
+        <div>
+            <p> Press the button to check your answers. <button onclick="checkAnswers()">Check Answers</button></div>
+        <div id="answers"></div>
+      </div>
+    </body>
+</html>
