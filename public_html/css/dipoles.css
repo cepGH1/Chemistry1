@@ -1,0 +1,14 @@
+/*
+Styling for applying dipoles to chemical structures
+*/
+
+.container{
+    position:relative;
+}
+
+.positiveDipole{
+     position: absolute;   
+  left:0;
+  top: 0;
+  z-index: 999;
+}

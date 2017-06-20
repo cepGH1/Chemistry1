@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 11, 2015, 9:11:45 AM
+    Author     : Zeaton
+*/
+#blueScruffyButton{
+    background-image : url("../images/scruffyBlue2.jpg");
+    color : #FFF1FF;
+    width : 20%;
+    height : 100%;
+}
+
+#pt1{
+    font-family: "Palatino", Arial, sans-serif;
+    border-style:none;
+    background-color: white;
+    
+}
+#ptLinks1{
+   float:right;
+   width:35%;
+   min-height: 200px;
+   color : black;
+   border:solid blueviolet;
+   padding:5px;
+   
+}
+
+#ptBody{
+   float:left;
+   width:60%;
+   min-height: 200px;
+   background-color:#ffe6ff;
+  padding:20px;
+}
+
+#ptFooter{
+     float:left;
+   width:100%;
+   background-color :purple;  
+   color:greenyellow;
+   padding: 20px;
+   
+  
+}
+a.pt:link{
+    color:greenyellow;
+    text-decoration:none;
+}
+a.pt:hover{
+    color:greenyellow;
+    text-decoration:underline;
+}
+a.pt:active{
+    color:greenyellow;
+    text-decoration:none;
+}
+a.pt:visited{
+    color:greenyellow;
+    text-decoration:none;
+}
+
+#ptTitle1{
+    color: purple;
+    font-size: xx-large;
+}

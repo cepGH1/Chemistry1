@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2017, 10:58:41 AM
+    Author     : Zeaton
+*/
+
+#around {
+    
+    width: 100%;
+    height:100%;
+    float:left;
+    border-style:solid;
+    border-color: black;
+    background-color: #ccffcc;
+  
+}
+
+/*footer {
+    float:left;
+    color : #5319AA;
+    background-color: white ;
+    clear: left;
+    text-align: center;
+    border:solid;
+    border-color:#5319AA;
+}*/
+/*header {
+    
+    color : #5319AA;
+    background-color: white ;
+    clear: left;
+    text-align: center;
+    border:solid;
+    border-color:#5319AA;
+}*/
+
+#periodicTableImage{
+    height: 100%;
+    width: 100%;
+}
+#RSCperiodicTable{
+   
+    border:solid;
+    border-color:#5319AA;
+     height: 20%;
+    width: 40%
+}
+#icMain{
+    width:50%;
+    padding:1px;
+    background-color: white;
+    float:right;
+    border:solid;
+    border-color: #5319AA;
+}
+
+#ionSymbol{
+    text-align:center;
+}
+
+#ionResponse{
+    text-align:center;
+   
+}

@@ -1,0 +1,373 @@
+/*
+CEP 2017
+html science
+*/
+/* 
+    Created on : Oct 15, 2015, 9:51:44 AM
+    Author     : Zeaton
+*/
+
+h1{
+    color: #5319AA;
+   font-family: "Palatino", Arial, sans-serif;
+   font-size: xx-large;
+    align-content: center;
+    padding-left: 5px;
+}
+h2{
+     color: #5319AA;
+   font-family: "Palatino", Arial, sans-serif;
+   font-size: x-large;
+    
+    padding-left: 5px;
+}
+h3{
+         color: #5319AA;
+   font-family: "Palatino", Arial, sans-serif;
+   font-size: large;
+    
+    padding-left: 10px;
+}
+
+h4{
+    padding-left: 5px;
+}
+
+p{
+    padding-left: 5px;
+}
+#bigLetters{
+    font-size: x-large;
+}
+div{
+    padding-left: 5px;
+    
+}
+
+table{
+   font-family: "Palatino", Arial, sans-serif;
+ background-color: white;
+ padding-left: 1px;
+border-style:solid;
+
+   
+}
+thead{
+    background-color: pink;
+    border-style:solid;
+}
+td{
+    background-color: #FFF1FF;
+    padding-left: 1px;
+    padding-right: 2px;
+    border-style: solid;
+    
+}
+th{background-color: #FFCCFF;}
+
+#singleRowFullWidth{
+    width:100%;
+    min-height:10%;
+    border: none;
+    padding:5px;
+}
+
+#cellHalfWidth{
+    border-style: groove ;
+    background-color: powderblue;
+    width:50%;
+    padding:5px;
+    cursor: pointer;
+}
+body{
+     color: black;
+   font-family: "Palatino", Arial, sans-serif;
+font-size: small;
+}
+
+footer{
+    min-width: 100%;
+     min-height:15%;
+    float:left;
+    background-color: #ffccff;
+   
+}
+
+header{
+    
+    background-color: #ffccff;
+    min-width: 100%;
+    text-align: center;
+}
+
+#elementHeader{
+    background-color:silver;
+    min-width: 100%;
+    text-align: left;
+}
+
+#around {
+    
+    width: 100%;
+    height:100%;
+    float:left;
+    border-style:solid;
+    border-color: black;
+    background-color: #ccffcc;
+  
+}
+#layout1{
+    width : 40%;
+    float:left;
+    border-style: solid;
+    padding : 10px;
+    
+}
+
+#layoutleft40{
+        width : 40%;
+    float:left;
+    border-style:none;
+    padding : 10px;
+}
+#eConfig{
+    width : 30%;
+    float:left;
+    background-color: skyblue;
+    padding : 10px;
+    
+}
+#polymers1{
+    width : 30%;
+    float:left;
+    background-color: bisque;
+    padding : 10px;
+    
+}
+#layout2{
+    width : 90%;
+    height :30%;
+    
+    padding : 10px;
+    
+}
+#layout3{
+    width : 90%;
+    min-height: 2%;
+    padding : 10px;
+    
+}
+#layout4{
+    min-width : 90%;
+    min-height: 2%;
+    padding : 10px;
+    float:left;
+}
+#layoutRight{
+    width : 30%;
+    min-height: 2%;
+    padding : 10px;
+    float:right;
+    background-color: pink;
+    
+}
+#inner1{
+    width : 10%;
+}
+#success{
+    
+}
+#scorer{
+  float:right;
+  width: 10%;
+  height:100px;
+  background-color: paleturquoise;
+  border-width :thin;
+  border-color :#5319AA;
+}
+
+#score{
+    padding-left: 10px;
+    color: #5319AA;
+    
+}
+
+#buttonBack{
+    background-color: black;
+    border:lavender;
+    border-style: groove;
+
+    
+}
+#layoutLeft{
+    float:left;
+    width:100%;
+    padding:5px;
+}
+#layoutLeft45{
+    float:left;
+    width:45%;
+    border-style:none;
+    padding: 5px;
+}
+#layoutLeft100Blue{
+    float:left;
+    width:99%;
+    min-width: 99%;
+    border-style: groove;
+    border-color:  #2080D0;
+    padding: auto;
+    
+    background-color: powderblue;
+    cursor: pointer;
+}
+#layoutLeft45Blue{
+    float:left;
+    width:45%;
+    min-width: 45%;
+    border-style: groove;
+    border-color:  #2080D0;
+    padding: 5px;
+    background-color: powderblue;
+    cursor: pointer;
+}
+#layoutLeft25Blue{
+    float:left;
+    width:25%;
+    min-width: 25%;
+    border-style: groove;
+    border-color:  #2080D0;
+    padding: 5px;
+    background-color: powderblue;
+    cursor: pointer;
+}
+#layoutLeft30Blue{
+    float: left;
+    width:30%;
+    min-width: 30%;
+    min-height: 100%;
+    border-style:none;
+    padding: 5px;
+    background-color: powderblue;
+    cursor: auto;
+    border: #2080D0 groove;
+}
+
+#layoutRight45{
+    float:right;
+    width:45%;
+   
+}
+
+#layoutRight45Blue{
+    float:right;
+    width:45%;
+    min-width: 45%;
+    border-style: groove;
+    border-color:  #2080D0;
+    padding: 5px;
+    background-color: powderblue;
+    cursor: pointer;
+}
+#layoutWithBorder{
+    border-style: groove;
+    align-content: center;
+    width :40%;
+}
+#flameTestTable{
+    border: #5319AA ;
+    background-color: white;
+    border-style: groove;
+}
+#flameTestTableRow{
+    background-color: white;
+}
+#flameTestTableCell{
+    background-color: white;
+   border:none; 
+}
+#flameTestTableCellLithium{
+    border:none;
+    background-color: red;
+}
+#flameTestTableCellSodium{
+    border:none;
+    background-color: darkorange;
+}
+#flameTestTableCellPotassium{
+    border:none;
+    background-color: mediumorchid;
+}
+#flameTestTableCellCalcium{
+    border:none;
+    background-color: red;
+}
+#flameTestTableCellCopper{
+    border:none;
+    background-color: seagreen;
+}
+#buildTable{
+    border-style: none;
+    background-color: yellow;
+    width:80%;
+    
+}
+#fillRows{
+    width:50%;
+}
+#list1{
+    width:90%;
+    padding:5px;
+    background-color: powderblue;
+    font:comic sans serif;
+    font-size:small;
+    border:none;
+}
+#footer{
+    min-width: 100%;
+    float:left;
+    
+}
+#bigPeriodicTable{
+    height:100%;
+    width:100%;
+}
+#ionAnswers{
+    height:100%;
+    width:100%;
+}
+
+#video1{
+    background-color: #FFF1FF;
+}
+
+#perTableGroup1{
+    width:100%;
+    border: none;
+   
+}
+#emptyCell{
+    border:none;
+    background-color:white;
+}
+#group1Cell{
+    background-color: red;
+}
+
+#group7Cell{
+    background-color: palegreen;
+}
+#TMcell{
+    background-color: silver;
+}
+
+#imageDisplay{
+    height:100%;
+    width:100%
+}
+
+#definitions{
+    color: blue;
+    cursor: pointer;
+}
+
