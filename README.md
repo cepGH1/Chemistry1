@@ -1,2 +1,2 @@
 # Chemistry1
-Chemistry pages at GCSE level (England).
+Mostly Chemistry pages at GCSE level (England).
