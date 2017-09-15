@@ -52,6 +52,7 @@ border-style:solid;
 
    
 }
+
 thead{
     background-color: pink;
     border-style:solid;
@@ -65,20 +66,9 @@ td{
 }
 th{background-color: #FFCCFF;}
 
-#singleRowFullWidth{
-    width:100%;
-    min-height:10%;
-    border: none;
-    padding:5px;
-}
 
-#cellHalfWidth{
-    border-style: groove ;
-    background-color: powderblue;
-    width:50%;
-    padding:5px;
-    cursor: pointer;
-}
+
+
 body{
      color: black;
    font-family: "Palatino", Arial, sans-serif;
@@ -99,11 +89,10 @@ header{
     min-width: 100%;
     text-align: center;
 }
-
-#elementHeader{
-    background-color:silver;
+#definitionHeader{
+      background-color: #2080d0;
     min-width: 100%;
-    text-align: left;
+    text-align: center;  
 }
 
 #around {
@@ -116,6 +105,65 @@ header{
     background-color: #ccffcc;
   
 }
+
+#answerbox1{
+    min-width: 80%;
+    background-color: #ccffcc;
+}
+#answerbox2{
+    min-width: 80%;
+    background-color: #ccffcc;
+}
+
+#cellHalfWidth{
+    border-style: groove ;
+    background-color: powderblue;
+    width:50%;
+    padding:5px;
+    cursor: pointer;
+}
+
+#canvas1{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+}
+
+#canvas2{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+}
+
+#eConfig{
+    width : 30%;
+    float:left;
+    background-color: skyblue;
+    padding : 10px;
+    
+}
+
+#electronicStructureExamples{
+    width: 45%;
+    float: left;
+    
+}
+
+#elementHeader{
+    background-color:silver;
+    min-width: 100%;
+    text-align: left;
+}
+#es1{
+    width:100%;
+    background-color: white;
+}
+#fullSizeImage{
+    width:100%;
+    height:auto;
+}
+
+
 #layout1{
     width : 40%;
     float:left;
@@ -130,20 +178,8 @@ header{
     border-style:none;
     padding : 10px;
 }
-#eConfig{
-    width : 30%;
-    float:left;
-    background-color: skyblue;
-    padding : 10px;
-    
-}
-#polymers1{
-    width : 30%;
-    float:left;
-    background-color: bisque;
-    padding : 10px;
-    
-}
+
+
 #layout2{
     width : 90%;
     height :30%;
@@ -204,6 +240,11 @@ header{
     width:100%;
     padding:5px;
 }
+#layoutLeft100{
+    float:left;
+    width:100%;
+    padding:5px;
+}
 #layoutLeft45{
     float:left;
     width:45%;
@@ -221,6 +262,16 @@ header{
     background-color: powderblue;
     cursor: pointer;
 }
+#layoutLeft100Pastel{
+    float:left;
+    width:99%;
+    min-width: 99%;
+    border-style: groove;
+    border-color: #606060;
+    padding: 5px;
+    background-color: lemonchiffon;
+    cursor: auto;
+}
 #layoutLeft45Blue{
     float:left;
     width:45%;
@@ -230,6 +281,17 @@ header{
     padding: 5px;
     background-color: powderblue;
     cursor: pointer;
+}
+
+#layoutLeft45Pastel{
+    float:left;
+    width:45%;
+    min-width: 45%;
+    border-style: groove;
+    border-color:  #2080D0;
+    padding: 5px;
+    background-color: lemonchiffon;
+    cursor: auto;
 }
 #layoutLeft25Blue{
     float:left;
@@ -241,6 +303,38 @@ header{
     background-color: powderblue;
     cursor: pointer;
 }
+#layoutLeft25Pastel{
+    float:left;
+    width:25%;
+    min-width: 25%;
+    border-style: groove;
+    border-color : white;
+    padding: 5px;
+    background-color: lemonchiffon;
+    cursor: auto;
+}
+#layoutLeft25{
+    float:left;
+    width:25%;
+    min-width: 25%;
+    border-style: none;
+    border-color:  #2080D0;
+    padding: 5px;
+    
+    cursor: auto;
+}
+#layoutLeft30{
+    float: left;
+    width:30%;
+    min-width: 30%;
+    min-height: 100%;
+    border-style:none;
+    padding: 5px;
+    background-color: powderblue;
+    cursor: pointer;
+    border: #2080D0 groove;
+}
+
 #layoutLeft30Blue{
     float: left;
     width:30%;
@@ -249,14 +343,25 @@ header{
     border-style:none;
     padding: 5px;
     background-color: powderblue;
-    cursor: auto;
+    cursor: pointer;
     border: #2080D0 groove;
+}
+#layoutLeft30Pastel{
+    float: left;
+    width:30%;
+    min-width: 30%;
+    min-height: 100%;
+    border-style:none;
+    padding: 5px;
+    background-color: lemonchiffon;
+    cursor: auto;
+    border: burlywood solid;
 }
 
 #layoutRight45{
     float:right;
     width:45%;
-   
+    padding: 5px;
 }
 
 #layoutRight45Blue{
@@ -268,6 +373,17 @@ header{
     padding: 5px;
     background-color: powderblue;
     cursor: pointer;
+}
+
+#layoutRight25Pastel{
+    float:right;
+    width:25%;
+    min-width: 25%;
+    border-style: groove;
+    border-color : white;
+    padding: 5px;
+    background-color: lemonchiffon;
+    cursor: auto;
 }
 #layoutWithBorder{
     border-style: groove;
@@ -337,6 +453,45 @@ header{
     width:100%;
 }
 
+#mySVG{
+    cursor:pointer;
+    width:100px;
+    height:100px;
+    
+}
+
+
+#selectedElement{
+    min-height: 100%;
+    min-width: 80%;
+    max-width: 80%;
+    background-color:palegoldenrod;
+}
+
+#selectedMolecule{
+    height: 50px;
+    min-width: 80%;
+    max-width: 80%;
+    background-color:palegoldenrod;
+    
+   padding-top: 2px;
+}
+#singleRowFullWidth{
+    width:100%;
+    min-height:10%;
+    border: none;
+    padding:5px;
+}
+#RAMAnswer{
+    width:80%;
+    background-color: peachpuff;
+}
+#RFMAnswer{
+     width:80%;
+     min-height: 50px;
+    background-color: peachpuff;
+    padding-top:2px;
+}
 #video1{
     background-color: #FFF1FF;
 }
@@ -346,12 +501,21 @@ header{
     border: none;
    
 }
+#polymers1{
+    width : 30%;
+    float:left;
+    background-color: bisque;
+    padding : 10px;
+    
+}
+
 #emptyCell{
     border:none;
     background-color:white;
 }
 #group1Cell{
     background-color: red;
+    cursor: pointer;
 }
 
 #group7Cell{
@@ -363,7 +527,15 @@ header{
 
 #imageDisplay{
     height:100%;
-    width:100%
+    width:100%;
+    
+    
+}
+#imageDisplayPointer{
+    height:100%;
+    width:100%;
+    cursor: pointer;
+    
 }
 
 #definitions{
