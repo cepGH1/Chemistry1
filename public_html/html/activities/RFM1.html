@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+CEP 2017
+GCSE Chemistry
+-->
+<html>
+    <head>
+        <title>Relative Formula Mass</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <script src="../../javascript/relativeMolecularMass.js"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>Relative Formula Mass</h1>
+            </header>
+            <div>
+                <p>Press the 'select molecule' button to select a formula at random. Calculate
+                it's Relative Formula Mass. Enter this 
+                into the box below and press the 'check answer'
+                button to see if you are correct.<br>
+                Remember the relative atomic mass is the larger of the two numbers usually displayed
+                beside the element's symbol on the periodic table. </p>
+                <div><button onclick="displayRandomMolecule()">select molecule</button></div>
+            </div>
+        
+        <div id="layoutLeft45">
+            <div id="selectedMolecule">
+               
+                    <p><h4>Element will appear here</h4></p>
+                </div>
+        </div>
+        <div id="layoutRight45">
+          Enter the Relative Formula Mass in the Box Below<br>
+                    Correct your answer to 2 decimal places.<br>
+                    <textarea id='answerbox2'></textarea>
+        </div>
+        <div id="layoutLeft45">
+            <p>Answer Box</p>
+            <div id="RFMAnswer"><p>The answer will appear here</p></div>
+        </div>
+        <div id="layoutRight45">
+                <button onclick="checkFormulaMass()">Check the answer</button>
+                
+        </div>
+          <div><p></p></div>
+            <footer>
+                <p>
+                    <p><button onclick="href=window.location.href='../KS4Chemistry.html'">GCSE Chemistry Page</button>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

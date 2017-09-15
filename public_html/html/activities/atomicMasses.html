@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+CEP 2017
+KS3 Chemistry
+
+-->
+<html>
+    <head>
+        <title>Relative Atomic Mass</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <script src="../../javascript/relativeMolecularMass.js"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>Relative Atomic Masses</h1>
+            </header>
+            <div>
+                <p>Press the 'select element' button to select an element at random. Look up
+                it's Relative Atomic Mass. Enter this 
+                into the box below and press the 'check answer'
+                button to see if you are correct.<br>
+                Remember the relative atomic mass is the larger of the two numbers usually displayed
+                beside the element's symbol on the periodic table. </p>
+                <div><button onclick="displayNewElement()">select element</button></div>
+            </div>
+            <div id='layoutLeft45'>
+                <div id="selectedElement">
+                    <p><h4>Element will appear here</h4></p>
+                </div>
+            </div>
+            <div id="layoutRight45">
+                
+                    Enter the Relative Atomic Mass in the Box Below<br>
+                    Correct your answer to 2 decimal places.<br>
+                    <textarea id='answerbox1'></textarea>
+               
+            </div>
+            <div id="layoutLeft45">
+                Answer Box<br>
+                <textarea readonly id="RAMAnswer"></textarea>
+            </div>
+            <div id="layoutRight45">
+                <button onclick="getRAMFloat()">Check the answer</button>
+                   
+               
+            </div>
+            <div><p></p></div>
+            <footer>
+                <p>
+                    <p><button onclick="href=window.location.href='../KS4Chemistry.html'">GCSE Chemistry Page</button>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
