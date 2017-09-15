@@ -1,0 +1,55 @@
+/*
+CEP 2017
+GCSE Chemistry
+*/
+/* 
+    Created on : Aug 26, 2017, 1:00:44 PM
+    Author     : CEP
+*/
+
+#moleq1{
+    height:15px;
+    width:100px;
+    background-color:#FFF0F0;
+}
+
+#moleq2{
+   height:15px;
+    width:100px; 
+    background-color:#FFF0F0;
+}
+
+#moleq3{
+    height:15px;
+    width:100px;
+    background-color:#FFF0F0;
+}
+
+#moleq4{
+    height:15px;
+    width:100px;
+    background-color:#FFF0F0;
+}
+
+#moleq5{
+    height:15px;
+    width:100px;
+    background-color:#FFF0F0;
+}
+
+#moleq0{
+    height:15px;
+    width:100px;
+    background-color:#FFF0F0;
+}
+#moleMark1{
+    
+    width:5%;
+    
+}
+#layoutLeft45Mole1Celebration{
+     float:left;
+    width:45%;
+    border-style:none;
+    padding: 5px;
+}
