@@ -1,0 +1,31 @@
+; EclipseCrossword (1.2.47) crossword puzzle
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+Title:  halogens1
+Width:  20
+Height:  15
+CodePage:  0
+Copyright:  © 2004
+
+; ------------------------------------------------------------
+* Across words
+; ------------------------------------------------------------
+
+CHLORIDES:  6, 9:  Chlorine reacts with many metals to make metal salts called metal __________
+BROMINE:  5, 11:  This element is a brown liquid and has atomic number 35
+SEVEN:  3, 14:  Group 7 elements have this number of electrons in the outermost energy level.
+IODINE:  14, 6:  This group 7 element (atomic number 53) is a dark solid that sublimes to give purple vapour.
+IRONCHLORIDE:  7, 13:  Iron reacts with chlorine gas to produce this salt.
+
+; ------------------------------------------------------------
+* Down words
+; ------------------------------------------------------------
+
+TWO:  9, 7:  The number of halogen atoms in a halogen molecule.
+FLUORINE:  11, 4:  This element  (atomic number 9) is the most reactive group 7 element.
+ANIONS:  14, 4:  Halogens gain one electron to produce these negatively charged ions
+CHLORINE:  7, 8:  This element (atomic number 17) is a green gas that will bleach moist pH paper.
+TRUE:  15, 12:  The halogens dissolve in water - true or false?
+YELLOW:  19, 5:  The colour that a solution of potassium bromide turns as bromine is displaced by chlorine.
+

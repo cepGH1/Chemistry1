@@ -1,0 +1,31 @@
+; EclipseCrossword (1.2.61) crossword puzzle
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+Title:  General 1
+Width:  25
+Height:  25
+CodePage:  0
+Author:  CEP
+Copyright:  © 2017
+
+; ------------------------------------------------------------
+* Across words
+; ------------------------------------------------------------
+
+CALCIUM:  10, 17:  Grey, Group 2 metal with Atomic Number 20 (7)
+METHANE:  13, 19:  Gaseous compound, containing carbon, with Relative Formula Mass of 15. (7)
+FLUORINE:  13, 14:  Most reactive Halogen element (8)
+POTASSIUMCHLORIDE:  6, 11:  Alkali Metal chloride with Relative Formula Mass 74.5 (9, 8)
+SODIUMHYDROXIDE:  4, 7:  Alkali produced when sodium reacts with water (6, 9)
+HYDROGEN:  3, 14:  Gas evolved when sodium metal reacts with water. (8)
+
+; ------------------------------------------------------------
+* Down words
+; ------------------------------------------------------------
+
+SODIUMCHLORIDE:  14, 6:  Compound made by reacting sodium metal with chlorine gas (6,8)
+BASE:  11, 16:  Acid + ______ --> Salt + Water (4)
+COPPER:  6, 9:  Coloured transition metal whose Atomic Mass is 63.5 (6)
+WATER:  19, 16:  Compound always produced in a neutralisation reaction (5)
+
