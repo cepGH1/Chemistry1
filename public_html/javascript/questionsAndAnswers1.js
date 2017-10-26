@@ -132,6 +132,17 @@ Well Done!";
    }
 }
 
+function moleDefinitionWindow() {
+    var myWindow = window.open("../ks4chemistry/definitions/Mole.html", "myWindow", "width=800,height=500");
+    
+   
+}
+
+function massHelpWindow() {
+    var myWindow = window.open("../../html/helpSheets/howMuchMassHelp.html", "myWindow", "width=800,height=500");
+    
+   
+}
 function test(){
     document.getElementById("questions").innerHTML = "hello world";
 }
