@@ -33,8 +33,14 @@ h4{
     padding-left: 5px;
 }
 
+
 p{
     padding-left: 5px;
+}
+
+#purpleBold{
+    color: #5319AA;
+    font-weight: bold;
 }
 #bigLetters{
     font-size: x-large;
@@ -266,6 +272,26 @@ header{
     float:left;
     width:99%;
     min-width: 99%;
+    border-style: groove;
+    border-color: #606060;
+    padding: 5px;
+    background-color: lemonchiffon;
+    cursor: auto;
+}
+#layoutLeft90Pastel{
+    float:left;
+    width:90%;
+    min-width: 90%;
+    border-style: groove;
+    border-color: #606060;
+    padding: 5px;
+    background-color: lemonchiffon;
+    cursor: auto;
+}
+#layoutLeft75Pastel{
+    float:left;
+    width:75%;
+    min-width: 75%;
     border-style: groove;
     border-color: #606060;
     padding: 5px;
