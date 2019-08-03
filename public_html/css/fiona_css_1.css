@@ -94,6 +94,7 @@ header{
     background-color: #ffccff;
     min-width: 100%;
     text-align: center;
+    padding: 10px;
 }
 #definitionHeader{
       background-color: #2080d0;
@@ -139,6 +140,18 @@ header{
     height: 200px;
     width: 200px;
     border-style: solid;
+}
+
+#definitionLink{
+      color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#definitionLink:hover {
+      color: red;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 #eConfig{
@@ -318,6 +331,7 @@ header{
     padding: 5px;
     background-color: lemonchiffon;
     cursor: auto;
+    
 }
 #layoutLeft25Blue{
     float:left;
@@ -468,6 +482,7 @@ header{
 #footer{
     min-width: 100%;
     float:left;
+    padding: 10px;
     
 }
 #bigPeriodicTable{
@@ -543,10 +558,26 @@ header{
     background-color: red;
     cursor: pointer;
 }
+#group2Cell{
+    background-color: white;
+    
+}
+
+#group6Cell{
+    cursor: pointer;
+    background-color:lightskyblue;
+}
 
 #group7Cell{
     background-color: palegreen;
+    cursor: pointer;
 }
+
+#group8Cell{
+    background-color: #FFFAF0;
+     cursor: pointer;
+}
+
 #TMcell{
     background-color: silver;
 }
@@ -567,5 +598,13 @@ header{
 #definitions{
     color: blue;
     cursor: pointer;
+}
+
+#headerFactBox{
+    background-color:white;
+    width: 100px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+    
 }
 
