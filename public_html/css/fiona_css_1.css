@@ -47,6 +47,7 @@ p{
 }
 div{
     padding-left: 5px;
+    padding:5px;
     
 }
 
@@ -161,6 +162,11 @@ header{
     padding : 10px;
     
 }
+#dotSquareExercise{
+    background-color: snow;
+    border-color: black;
+    border: solid;
+}
 
 #electronicStructureExamples{
     width: 45%;
@@ -181,7 +187,13 @@ header{
     width:100%;
     height:auto;
 }
-
+#imageFloatLeft{
+    float:left;
+}
+#imageFloatLeftPointer{
+    float:left;
+    cursor:pointer;
+}
 
 #layout1{
     width : 40%;
@@ -228,6 +240,18 @@ header{
 }
 #inner1{
     width : 10%;
+}
+
+#pictorialEdition{
+   
+    float:left;
+       border-style: groove;
+    border-color:  #2080D0;
+    padding: 5px;
+    background-color: powderblue;
+    cursor: pointer;
+    min-height: 100px;
+  
 }
 #success{
     
