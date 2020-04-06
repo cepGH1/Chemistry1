@@ -22,3 +22,9 @@ function metalExtractionImageWindow() {
     
    
 }
+
+function nonMetals1() {
+    var myWindow = window.open("../../html/ks4chemistry/nonMetalsBigImage.html", "myWindow", "width=600,height=600");
+    
+   
+}
