@@ -19,7 +19,7 @@ h2{
    font-family: "Palatino", Arial, sans-serif;
    font-size: x-large;
     
-    padding-left: 5px;
+    padding-left: 10px;
 }
 h3{
          color: #5319AA;
@@ -30,10 +30,12 @@ h3{
 }
 
 h4{
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
-
+#headingLink{
+    cursor: pointer;
+}
 p{
     padding-left: 5px;
 }
@@ -288,6 +290,12 @@ header{
     float:left;
     width:100%;
     padding:5px;
+}
+
+#layoutLeft60{
+     float:left;
+    width:60%;
+    padding:5px; 
 }
 #layoutLeft45{
     float:left;
