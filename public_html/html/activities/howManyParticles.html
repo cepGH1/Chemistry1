@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+CEP 2020
+-->
+<html>
+    <head>
+        <title>How Many Particles</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../../javascript/howManyParticles.js"></script>
+        <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <link rel='stylesheet' type="text/css" href="../../css/howManyParticles.css">
+    </head>
+    <body onload="selectQuestion()">
+        <div>
+            <header>
+                <h1>How Many Particles</h1>
+            </header>
+            <h4>Question</h4>
+            <div id="particleQuestionBox1">
+                
+                
+            </div>
+            <div id="particleAnswer1"></div>
+            <h4>Answer</h4>
+            Enter your answer, in scientific notation, (to 3 significant figures), in the boxes below<br>
+            <div id="particleAnswerBox1">
+                <textarea id="answerNumerator"> </textarea> x 10 <textarea id="answerPower"></textarea>
+            </div>
+            <h4>Explanation</h4>
+            Press buttons to either check your answer or to read an explanation of how to calculate the answer<br>
+            <div id="layoutLeft100">
+                <button onclick="checkAnswer()">Check the answer</button>
+                <button onclick="showAnswer()">Answer and Explanation</button>
+            
+                <div id="testAv1"></div>
+               
+            </div>
+             <div><p></p></div>
+            <div><h4>Get the next question</h4>
+            
+                <button onclick="nextQuestion()">Next Question</button>
+            </div>
+            <div><p></p></div>
+            
+            
+        </div>
+        <footer>
+                <p>
+                    <button onclick="href=window.location.href='../KS4Chemistry.html'">GCSE Chemistry Page</button>
+                    <button onclick="moleDefinitionWindow()">Mole Definition</button>
+                    <script src="../../javascript/questionsAndAnswers2.js"></script>
+                    <button onclick="href=window.location.href='howManyMoles1.html'">Mole Calculations Page</button>
+                </p>
+            </footer>
+    </body>
+</html>
