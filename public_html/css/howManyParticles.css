@@ -1,0 +1,21 @@
+/*
+CEP 2020
+*/
+/* 
+    Created on : 13 Apr 2020, 16:33:45
+    Author     : Clare
+*/
+
+#particleQuestionBox1{
+    width:45%;
+    border: solid pink;
+    
+}
+
+#particleAnswer1{
+    width:40%;
+    background-color:whitesmoke;
+    float:right;
+    
+}
+
