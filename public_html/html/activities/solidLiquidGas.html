@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+CEP 2020
+-->
+<html>
+    <head>
+        <title>States</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../../javascript/solidLiquidGas.js"></script>
+        <script src="../../javascript/questionsAndAnswers2.js"></script>
+        <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <link rel='stylesheet' type="text/css" href="../../css/solidLiquidGas.css">
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>Solid, Liquid or Gas</h1>
+            </header>
+            <div>Answer the question in the pink box by selecting the state from the purple boxes below</div>
+            <div id='stateQuestion'>
+                <p>
+                    A pure substance x has melting point of 10<sup>o</sup>C and boiling point of
+                    156<sup>o</sup>C. What physical state is it in at 5<sup>o</sup>C?
+                </p>
+            </div>
+            
+            <div id='layoutLeft100'>
+                <div id='solid' onclick="selectState(0)" >
+                    <div id="stateText"> Solid</div>
+                </div>
+                <div id='liquid' onclick="selectState(1)">
+                    <div id="stateText"> Liquid</div>
+                </div>
+                <div id='gas' onclick="selectState(2)">
+                    <div id="stateText"> Gas</div>
+                </div>
+            </div>
+            <div>
+                <div id="layoutLeft30">
+                    Press the button to check if your selection is correct
+                    
+                </div>
+                <div id="layoutLeft30">
+                    Feedback box
+                    
+                </div>
+                 <div id="layoutLeft30">
+                    Number of questions answered correctly
+                    
+                </div>
+            </div>
+            <div id="layoutLeft100">
+                <div id="layoutLeft30"><button onclick="checkStateAnswer()">Check Answer</button></div>
+            <div id="stateResult">
+                
+            </div>
+                <div id="stateCounterBox">
+                    
+                </div>
+            </div>
+            <div id="layoutRight">
+                <button onclick="nextStateQuestion()">Next Question</button>
+            </div>
+            <div> </div>
+            <footer>
+                <h3>Navigation Area</h3>
+                <p>
+                    <button onclick="href=window.location.href='../KS4Chemistry.html'">GCSE Chemistry Page</button>
+                  
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
