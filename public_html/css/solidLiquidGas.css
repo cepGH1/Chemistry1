@@ -1,0 +1,75 @@
+/*
+CEP 2020
+*/
+/* 
+    Created on : 21 Apr 2020, 23:55:05
+    Author     : Clare
+*/
+#stateQuestion{
+    width:95%;
+    background-color: pink;
+    min-height: 100px;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+}
+#solid{
+    width:30%;
+    background-color: orchid;
+    border:#FFCCFF solid;
+    min-height: 100px;
+    float:left;
+    text-align: center;
+    cursor: pointer;
+    
+}
+#liquid{
+     width:30%;
+    background-color: orchid;
+    border:#FFCCFF solid;
+    min-height: 100px;
+    float:left;
+    text-align: center;
+    cursor: pointer;
+}
+#gas{
+     width:30%;
+    background-color: orchid;
+    border:#FFCCFF solid;
+    min-height: 100px;
+    float:left;
+    text-align: center;
+    cursor: pointer;
+}
+
+#selectedStateText{
+    text-align: center;
+    font-size: xx-large;
+    
+    color: white;
+    padding: 20px;
+}
+
+#stateText{
+     text-align: center;
+    font-size: xx-large;
+    color: black;
+    padding : 20px;
+    
+}
+
+#stateResult{
+    width:30%;
+    float:left;
+    border: solid;
+    min-height: 100px;
+}
+
+#stateCounterBox{
+    width:20%;
+    float:right;
+    border: solid pink ;
+    min-height: 50px;
+    font-size:xx-large;
+}
+
