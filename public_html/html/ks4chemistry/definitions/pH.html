@@ -1,30 +1,74 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+CEP 2020
 -->
 <html>
     <head>
         <title>pH</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="../../../css/fiona_css_1.css">
+        <script src="../../../javascript/definitions.js"></script>
     </head>
     <body>
+        <header>
+            <h1>pH </h1>
+        </header>
         <div>
+            <h3>pH</h3>
             A measure of how acidic or alkaline a solution is. <br>
-            This measures the hydrogen ion content of a solution. <br>
+            This measures the hydrogen ion
+            <a id="definitions" onclick="definitionPopUp('concentration.html')">concentration</a> in a solution. <br>
         </div>
         <div>
-            pH = -log<sub>10</sub>[H<sup>+</sup>]
+            The pH is calculated using this formula<br>
+            <p><b>pH = -log<sub>10</sub>[H<sup>+</sup>]</b></p>
+            pH is - the log to the base 10 of the hydrogen ion (proton) 
+            <a id="definitions" onclick="definitionPopUp('concentration.html')">concentration</a>
         </div>
         <div>
-            Can be measured also by using universal indicator solution. This changes 
+            <h3>Measurement</h3>
+        <div id="layoutLeft45">
+            
+            pH can be measured using a pH meter or by using universal indicator solution. This changes 
             colour as pH changes. <br>
             red = acid pH1 <br>
             green = neutral pH7 <br>
             purple = alkaline pH14 <br>
             
         </div>
+            <div id="layoutLeft45">
+                <img src="../../../images/pH/pH4.png" height="100" width="250" alt="missing image">
+            </div>
+        </div>
+        <div id="layoutLeft100">
+            <h3>Indicators</h3>
+            <p>An indicator is any compound that changes colour at a particular pH.<br>
+                They can be very sensitive and precise.</p>
+            <h4>Examples of Indicators</h4>
+            <div id="layoutLeft30Blue" onclick="href=window.location.href='../molecules/litmus.html'">
+                <h4> Litmus</h4>
+                Red in acids and blue in alkalis
+            </div>
+            <div id="layoutLeft30Blue" onclick="href=window.location.href='../molecules/methylOrange.html'">
+                <h4>Methyl Orange</h4>
+                Red in acid and yellow in alkali
+            </div>
+            <div id="layoutLeft30Blue" onclick="href=window.location.href='../molecules/phenolphthalein.html'">
+                <h4>Phenolphthalein</h4>
+                Clear in acid and puce(purple pink) in alkali
+            </div>
+            <div id="layoutLeft100">
+            Universal Indicator is made from a mixture of other specific types of indicator.
+            </div>
+        </div>
+           <footer>
+                <h3>Navigation Area</h3>
+                <p>
+                    
+                    <button onclick="href=window.location.href='../../KS4Chemistry.html'">GCSE Chemistry Page</button>
+                </p>
+                     <div id='layoutLeft'><p></p></div>
+            </footer>
     </body>
 </html>
