@@ -1,0 +1,238 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 21, 2017, 4:41:56 PM
+    Author     : Zeaton
+*/
+
+img {
+    height:100%;
+    width:100%;
+}
+#cellSize{
+    height: 25%;
+    width: 25%;
+    border: solid red;
+}
+
+#pairsTable{
+    border : none;
+    width:60%;
+    height:60%;
+}
+
+#pairsResults{
+    min-width:100%;
+    align-content: center;
+}
+
+#dealButton{
+    float: right;
+    float:bottom;
+    padding-right: 10%;
+}
+
+#pairsButton0{
+    width:100%;
+    height:100%;
+}
+
+#showElement{
+    background-color: paleturquoise;
+    min-width: 40%;
+    min-height: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+#fgStructure1{
+    float:left;
+    
+
+    background-color: white;
+    padding-left: 5px;
+    margin:2%;
+    border-color: black;
+    border: solid;
+    min-height: 200px;
+    min-width: 200px;
+}
+#fgTable1{
+      font-family: "Palatino", Arial, sans-serif;
+ background-color: yellow;
+ padding-left: 5px;
+border-style:solid;
+float:left;
+min-width: 50%;
+margin:2%;
+min-height: 200px;
+}
+
+#fgTable2{
+      font-family: "Palatino", Arial, sans-serif;
+ background-color: aliceblue;
+ padding : 3px;
+border-style:solid;
+float:left;
+min-width: 90%;
+margin:1%;
+}
+#resultTable{
+   float:left;
+   min-width: 100%;
+   min-height: 200px;
+    
+}
+#fgRow1{
+    border-color : gray;
+}
+#separator{
+    min-width:100%;
+    float:left;
+}
+
+#toBegin{
+    background-color: #5319AA;
+    color: white;
+    float:left;
+    min-height: 2%;
+    min-width: 100%;
+    border-color: black;
+}
+header, footer {
+    padding: 1em;
+    color: #5319AA;
+    background-color:papayawhip ;
+    clear: left;
+    text-align: center;
+}
+#container {
+    width: 100%;
+    
+  
+}
+
+#structureRow0{
+    height: 100px;
+    width:100px;
+}
+
+#structureRow1{
+    height: 100px;
+    width:100px;   
+}
+
+#structureRow2{
+   height: 100px;
+    width:100px; 
+}
+
+#structureRow3{
+    height: 100px;
+    width: 100px;
+}
+
+#structureRow4{
+    height: 100px;
+    width: 100px;
+}
+
+#structureRow5{
+    height: 100px;
+    width: 100px;
+   
+}
+
+#structureRow6{
+    width: 100px;
+    height: 100px;
+}
+
+#structureRow7{
+    width: 100px;
+    height: 100px
+}
+
+#structureRow8{
+    width: 100px;
+    height: 100px;
+}
+
+#structureRow9{
+    width: 100px;
+    height: 100px;
+}
+
+#structureRow10{
+    width: 100px;
+    height: 100px;
+}
+
+#structureRow11{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow0{
+  width: 100px;
+    height: 100px;  
+}
+
+#nameRow1{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow2{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow3{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow4{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow5{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow6{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow7{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow8{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow9{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow10{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow11{
+    width: 100px;
+    height: 100px;
+}
+
+

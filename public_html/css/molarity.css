@@ -1,0 +1,34 @@
+/*
+Chemistry 2020
+CEP
+*/
+/* 
+    Created on : 9 Apr 2020, 16:27:16
+    Author     : Clare
+*/
+
+#molarityQuestionBox{
+    background-color: pink;
+    float: left;
+    width: 50%
+}
+
+#relativeFormulaMass{
+   float:right;
+   background-color: #ffc000;
+   width:40%
+}
+
+#molesOfCompound{
+    float:right;
+   background-color:#ccffcc;
+   width:40%
+}
+
+#molarityAnswer{
+        float:right;
+        background-color:aqua;
+        width:40%
+
+}
+
