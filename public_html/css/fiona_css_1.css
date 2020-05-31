@@ -50,6 +50,7 @@ p{
 div{
     padding-left: 5px;
     padding:5px;
+    margin-bottom: 5px;
     
 }
 
@@ -89,6 +90,7 @@ footer{
      min-height:15%;
     float:left;
     background-color: #ffffcc;
+    padding: 5px;
    
 }
 
@@ -597,7 +599,21 @@ header{
     padding : 10px;
     
 }
+#precipitationTest{
+    width: 70%;
+    float:right;
+    border: chocolate thin solid;
+}
 
+#chemicalTestButton{
+    color: chocolate;
+    background-color: white;
+    padding : 3px;
+}
+
+
+  
+  
 #emptyCell{
     border:none;
     background-color:white;
@@ -609,6 +625,13 @@ header{
 #group2Cell{
     background-color: white;
     
+}
+
+#group4Cell{
+    background-color: black;
+    cursor: pointer;
+    color:white;
+    border-color:pink;
 }
 
 #group6Cell{
