@@ -1,0 +1,34 @@
+/*
+CEP 2020
+*/
+/* 
+    Created on : 18 Jun 2020, 14:36:24
+    Author     : clare
+*/
+
+#photosynthesis{
+       
+       background-image: url("../images/photosynthesis/header1.jpg");
+       
+    min-width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#photosynthesisFooter{
+  background-image: url("../images/photosynthesis/header1.jpg"); 
+   min-width: 100%;
+       min-height:15%;
+    float:left;
+    padding: 5px;
+}
+
+#biologyPictorialEdition{
+    float:left;
+       border-style: groove;
+    border-color:  #2080D0;
+    padding: 5px;
+    background-color: #ccffcc;
+    cursor: pointer;
+    min-height: 100px;
+}

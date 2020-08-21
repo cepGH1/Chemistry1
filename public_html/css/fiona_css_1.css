@@ -255,7 +255,8 @@ header{
     padding: 5px;
     background-color: powderblue;
     cursor: pointer;
-    min-height: 100px;
+    min-height:120px;
+    min-width:120px;
   
 }
 #success{
@@ -409,6 +410,17 @@ header{
     background-color: powderblue;
     cursor: pointer;
 }
+
+#layoutLeft15Pastel{
+    float:left;
+    width:15%;
+    min-width: 15%;
+    border-style: groove;
+    border-color:  white;
+    padding: 5px;
+    background-color: lemonchiffon;
+    
+}
 #layoutLeft30{
     float: left;
     width:30%;
@@ -417,7 +429,7 @@ header{
     border-style:none;
     padding: 5px;
     
-    cursor: pointer;
+   
     
 }
 

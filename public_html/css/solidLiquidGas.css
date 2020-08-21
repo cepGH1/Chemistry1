@@ -73,3 +73,11 @@ CEP 2020
     font-size:xx-large;
 }
 
+#SLGtable{
+    width:90%;
+    border-style:groove;
+}
+#SLGcell{
+    border-style:none;
+}
+

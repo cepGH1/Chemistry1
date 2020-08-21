@@ -54,13 +54,17 @@ img {
     background-color: white;
     padding-left: 5px;
     margin:2%;
+    border-color: black;
+    border: solid;
+    min-height: 200px;
+    min-width: 200px;
 }
 #fgTable1{
       font-family: "Palatino", Arial, sans-serif;
  background-color: yellow;
  padding-left: 5px;
 border-style:solid;
-float:right;
+float:left;
 min-width: 50%;
 margin:2%;
 min-height: 200px;
@@ -76,7 +80,9 @@ min-width: 90%;
 margin:1%;
 }
 #resultTable{
-   float:right;
+   float:left;
+   min-width: 100%;
+   min-height: 200px;
     
 }
 #fgRow1{
@@ -93,6 +99,7 @@ margin:1%;
     float:left;
     min-height: 2%;
     min-width: 100%;
+    border-color: black;
 }
 header, footer {
     padding: 1em;
@@ -105,4 +112,125 @@ header, footer {
     width: 100%;
     
   
+}
+
+#structureRow0{
+    height: 100px;
+    width:100px;
+}
+
+#structureRow1{
+    height: 100px;
+    width:100px;   
+}
+
+#structureRow2{
+   height: 100px;
+    width:100px; 
+}
+
+#structureRow3{
+    height: 100px;
+    width: 100px;
+}
+
+#structureRow4{
+    height: 100px;
+    width: 100px;
+}
+
+#structureRow5{
+    height: 100px;
+    width: 100px;
+   
+}
+
+#structureRow6{
+    width: 100px;
+    height: 100px;
+}
+
+#structureRow7{
+    width: 100px;
+    height: 100px
+}
+
+#structureRow8{
+    width: 100px;
+    height: 100px;
+}
+
+#structureRow9{
+    width: 100px;
+    height: 100px;
+}
+
+#structureRow10{
+    width: 100px;
+    height: 100px;
+}
+
+#structureRow11{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow0{
+  width: 100px;
+    height: 100px;  
+}
+
+#nameRow1{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow2{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow3{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow4{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow5{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow6{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow7{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow8{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow9{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow10{
+    width: 100px;
+    height: 100px;
+}
+
+#nameRow11{
+    width: 100px;
+    height: 100px;
 }
