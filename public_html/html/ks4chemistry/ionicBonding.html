@@ -9,21 +9,97 @@ Chemistry
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <script src="../../javascript/ions1.js"></script>
     </head>
     <body>
         <div>
             <header>
                 <h1>Ionic Bonding</h1>
             </header>
-            <div>
+            <div id="layoutLeft100">
+            <div id="layoutLeft30Pastel">
+                <h3>How ions form</h3>
                 <p>
-                    Electrons are taken by some atoms and given away by other atoms
-                    so they all become charged ions. Ions of opposite charge stick together.
-                    (a bit like magnets) It is called electrostatic attraction. <br>
+                    Electrons are taken in by some atoms and given away by other atoms
+                    so they become charged ions.<br>
+                    Ions of opposite charge stick together.
+                    (a bit like magnets)<br>
+                    This is called electrostatic attraction. <br>
                     Atoms accept extra electrons until their outermost electron shell is full.<br>
                     Or, if it is easier, they give away electrons until their outer shell is empty.<br>
-                    In general metals give away their outer electrons.
-                </p>
+                    In general<br><ul> <li>metals give away their outer electrons to become positive ions</li>
+                    <li> non-metals take in electrons to become negative ions</li></ul>
+            </div>
+            <div id="layoutLeft30Pastel">
+                <h3>Structure of Ionic Compounds</h3>
+                In solid ionic compounds each ion is surrounded by ions of the opposite charge, in an endlessly
+                repeated structure. A giant ionic lattice.
+                <h4>How do we know this</h4>
+                First of all scientists made educated guesses. They predicted how the ions 
+                were arranged. Later X ray crystallography measured how the ions were arranged.
+                Recently ions have been viewed through massively powerful electron microscopes.
+                
+                <h4>When ionic compounds dissolve</h4>
+                Ions get surrounded by solvent molecules. They no longer stick to other ions
+                and they are free to move.
+                
+            </div>
+            <div id="layoutLeft30Pastel">
+                <h3>Try this</h3>
+                <ul>
+                    <li>Marsh mallow and cocktail stick model</li>
+                    <li>Grow your own salt crystal</li>
+                    <li>Investigate what happens when salt dissolves in water</li>
+                </ul>
+            </div>
+            </div>
+            
+            <div id="layoutLeft100Pastel">
+                <h3>Examples : Describing Ions</h3>
+                <div id="layoutLeft100">Ions are shown with big square brackets around them and the charge 
+                    on the outside.</div>
+                <button onclick="showIonicStructure(hydrogen)">Hydrogen</button>
+                <button onclick="showIonicStructure(lithium)">Lithium</button>
+                <button onclick="showIonicStructure(sodium)">Sodium</button>
+                <button onclick="showIonicStructure(potassium)">Potassium</button>
+                <button onclick="showIonicStructure(fluorine)">Fluorine</button>
+                <button onclick="showIonicStructure(chlorine)">Chlorine</button>
+                <div id="ionExamples">
+                    
+                <h4>Hydrogen</h4>
+                <div id="layoutLeft30">
+                    Hydrogen atom<br>   
+                    A Hydrogen atom has a single electron in it's outer shell <br>
+                 <img src="../../images/electronicStructure/hydrogen2.png" height="200" width="200"><br>
+                 Hydrogen can make either positive ions(cations) or, more rarely negative ions(anions)
+                </div>
+                <div id="layoutLeft30">
+                 Hydrogen Cation, Proton <br>
+                 The single electron is lost. Leaves the proton that is the hydrogen atoms nucleus.<br>
+                 <img src="../../images/electronicStructure/proton.png" height="200" width="200"><br>
+                </div>
+                 <div id="layoutLeft30">
+                 Hydrogen anion<br>
+                 By accepting an extra electron into its outer shell a -1 ion is produced and
+                 the shell is full. This is a stable configuration. This is a hydride ion.
+                 Hydride ions only exist under extreme conditions<br>
+                 <img src="../../images/electronicStructure/hydrideIon.png" height="200" width="200"><br>
+                 </div>
+                </div>   
+            </div>
+            <div id="layoutLeft100Pastel">
+                <h3>Dot Cross Diagrams to show Compounds</h3>
+                Compounds have to be neutral (have no charge). The amount of negative charge
+                in the compound must be equal to the amount of positive charge in the compound.<br>
+              <div id="layoutLeft100">
+                  <h3>Examples</h3>
+                <button onclick="showCompoundStructure(lithiumChloride)">Lithium chloride</button>
+                <button onclick="showCompoundStructure(sodiumChloride)">Sodium chloride</button>
+                <button onclick="showCompoundStructure(potassiumChloride)">Potassium chloride</button>
+              </div>
+                <div id="compoundExamples"></div>
+                
+                <h4></h4>
             </div>
               <div id="layoutLeft"><p></p></div>
             <footer>
