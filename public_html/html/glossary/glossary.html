@@ -7,6 +7,8 @@ CEP 2020
         <title>Glossary</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <script src="../../javascript/definitions.js"></script>
     </head>
     <body>
         <div>
@@ -14,10 +16,16 @@ CEP 2020
                 <h1>Glossary</h1>
             </header>
             <div>
-                <button onclick="href=window.location.href='bunsenBurner.html'">Bunsen Burner</button>
-                <button onclick="href=window.location.href='../ks4chemistry/definitions/pH.html'">pH</button>
-                <button onclick="href=window.location.href='thermometer.html'">thermometer</button>
+                <button id="definitionsGlossary" onclick="definitionPopUp('bunsenBurner.html')">Bunsen Burner</button>
+                <button id="definitionsGlossary" onclick="definitionPopUp('gauzeMat.html')">Gauze Mat</button>
+                <button id="definitionsGlossary" onclick="definitionPopUp('../ks4chemistry/definitions/Mole.html')">Mole</button>
+                <button id="definitionsGlossary" onclick="definitionPopUp('../ks4chemistry/definitions/pH.html')">pH</button>
+                <button id="definitionsGlossary" onclick="definitionPopUp('thermometer.html')">thermometer</button>
+                <button id="definitionsGlossary" onclick="definitionPopUp('tripod.html')">tripod</button>
             </div>
+            <footer>
+                <button onclick="href=window.location.href='./../KS4Chemistry.html'">Key Stage 4 chemistry</button>
+            </footer>
         </div>
     </body>
 </html>
