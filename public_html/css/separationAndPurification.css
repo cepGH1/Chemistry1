@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 Jan 2021, 20:24:06
+    Author     : user
+*/
+
+#choiceSpace{
+    width: 40%;
+    float:left;
+    min-height: 200px;
+    background-color:greenyellow;
+    
+}
+#chosenTechnique{
+    font-size:x-large;
+   
+}
+
+#questionSpace{
+    width: 40%;
+    float:left;
+    min-height: 200px;
+    background-color:#FFFAF0;
+}
+
+#problem{
+    font-size:x-large;
+}
+
+#navigationSpace{
+    width:100%;
+    float:left;   
+}
+
+#sepFeedback{
+   background-color: blue; 
+   width:15%;
+   float:right;
+}
+
+#sepFeedback2{
+ font-size:x-large;
+}
+
+#sepButton{
+    background-color:cornflowerblue;
+}
+
