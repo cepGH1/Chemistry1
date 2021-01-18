@@ -14,18 +14,31 @@ CEP 2020
         <header>
             <h1>pH </h1>
         </header>
-        <div>
+       <div id="layoutLeft100">
+            <div id="layoutLeft30Pastel">
             <h3>pH</h3>
-            A measure of how acidic or alkaline a solution is. <br>
-            This measures the hydrogen ion
-            <a id="definitions" onclick="definitionPopUp('concentration.html')">concentration</a> in a solution. <br>
+            <p>A measure of how acidic or alkaline a solution is. </p>
+            <p> This measures the hydrogen ion
+                <a id="definitions" onclick="definitionPopUp('concentration.html')">concentration</a> in a solution. </p>
+            <p style="font-style: italic;" >The higher the concentration of hydrogen ions in a solution, the more acidic it is and 
+                the lower it's pH is.</p>
+           
+            </div>
+            <div id="layoutLeft30Pastel">
+                <p><a id="definitions" onclick="definitionPopUp('../acids.html')"> Acids</a> are substances that can give out a hydrogen ion in solution (dissociation)</p>
+            <h4>For example</h4>
+            <p>HCl(aq) = H<sup>+</sup>(aq) + Cl<sup>-</sup>(aq)</p>
+            </div>
+        
+        <div id="layoutLeft30Pastel">
+            <p>The pH is calculated using this formula</p>
+            <h3> pH = - log<sub>10</sub>[ H<sup>+</sup> ]</h3>
+            <p> pH is - the log to the base 10 of the hydrogen ion (proton) 
+                <a id="definitions" onclick="definitionPopUp('concentration.html')">concentration</a></p>
+            <p>When hydrogen ion concentration increases ten fold (x10 or ten times) pH drops by
+            one unit</p>
         </div>
-        <div>
-            The pH is calculated using this formula<br>
-            <p><b>pH = -log<sub>10</sub>[H<sup>+</sup>]</b></p>
-            pH is - the log to the base 10 of the hydrogen ion (proton) 
-            <a id="definitions" onclick="definitionPopUp('concentration.html')">concentration</a>
-        </div>
+    </div>
         <div>
             <h3>Measurement</h3>
         <div id="layoutLeft45">
@@ -62,11 +75,12 @@ CEP 2020
             Universal Indicator is made from a mixture of other specific types of indicator.
             </div>
         </div>
-           <footer>
+            <footer>
                 <h3>Navigation Area</h3>
                 <p>
                     
                     <button onclick="href=window.location.href='../../KS4Chemistry.html'">GCSE Chemistry Page</button>
+                     <button onclick="href=window.location.href='../acids.html'">Acids</button>
                 </p>
                      <div id='layoutLeft'><p></p></div>
             </footer>
