@@ -1,0 +1,81 @@
+/*
+CEP 2021
+*/
+/* 
+    Created on : 14 Jan 2021, 14:38:42
+    Author     : clare
+*/
+
+#scenario{
+    background-color: greenyellow;
+    width: 30%;
+    float: left;
+    min-height: 200px;
+}
+
+#electrolysisExperiment{
+    
+}
+
+#anodeProduct{
+    background-color: pink;
+    width:20%;
+    float: left;
+   min-height: 200px;
+}
+
+#anodeSuggestions{
+    background-color: pink;
+    width:45%;
+    float: left;
+    min-height: 150px;
+}
+
+#anodeButton{
+    background-color: pink;
+}
+
+#anodeAnswer{
+    
+}
+
+#cathodeProduct{
+    background-color: lavender;
+    width: 20%;
+    float: left;
+    min-height: 200px;
+}
+
+#cathodeSuggestions{
+    background-color: lavender;
+    width: 45%;
+    float: left;
+    min-height: 150px;
+}
+
+#cathodeButton{
+    background-color: lavender;
+    
+}
+
+#cathodeAnswer{
+    
+}
+
+#elecLayoutLeft100{
+    background-color: whitesmoke;
+    float: left;
+    width: 100%;
+    min-height: 100px;
+}
+
+#elecFeedback2{
+    background-color: blue;
+    width:10%;
+    float:left;
+    min-height: 200px;
+}
+
+#elecFeedback3{
+    
+}
