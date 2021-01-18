@@ -369,6 +369,15 @@ header{
     cursor: auto;
     
 }
+
+#layoutLeft45Pink{
+   float:left;
+    width:45%;
+    min-width: 45%;
+   background-color: #ffe6ff;
+    padding: 5px;
+    cursor: auto; 
+}
 #layoutLeft25Blue{
     float:left;
     width:25%;
@@ -466,6 +475,12 @@ header{
     padding: 5px;
 }
 
+#layoutRight45Pink{
+    float:right;
+    background-color:#ffe6ff;
+    width:45%;
+    padding: 5px;
+}
 #layoutRight45Blue{
     float:right;
     width:45%;
