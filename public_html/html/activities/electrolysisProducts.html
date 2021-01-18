@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+CEP 2021
+-->
+<html>
+    <head>
+        <title>Electrolysis products</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <link rel='stylesheet' type="text/css" href="../../css/electrolysisProducts.css">
+        <script src="../../javascript/electrolysisProducts.js"></script>
+    </head>
+    <body>
+        <div>
+        
+            <header>
+                <h1>Predict the products of electrolysis</h1>
+            </header>
+            <div id='layoutLeft100'>
+                <div id ="scenario">
+                    <h3>The experiment </h3>
+                    <div id='electrolysisExperiment'>
+                        DC current passed through sodium chloride dissolved in water
+                    </div>
+                </div>
+                <div id="anodeProduct">
+                    <h3>Product produced at the anode</h3>
+                    <div id="anodeAnswer">
+                        
+                    </div>
+                </div>
+                <div id="cathodeProduct">
+                    <h3>Product produced at the cathode</h3>
+                    <div id="cathodeAnswer">
+                        
+                    </div>
+                </div>
+                
+                <div id="elecFeedback2">
+                    <h3>How you did</h3>
+                    <div id="elecFeedback3">
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="layoutLeft100">
+                
+                <div id="anodeSuggestions">
+                    <h3>Choose a product that will be produced at the anode</h3>
+                <button id="anodeButton" onclick="lodgeAnodeChoice(0)">Chlorine gas</button>
+                <button id="anodeButton" onclick="lodgeAnodeChoice(1)">Hydrogen gas</button>
+                <button id="anodeButton" onclick="lodgeAnodeChoice(2)">Bromine</button>
+                <button id="anodeButton" onclick="lodgeAnodeChoice(3)">Iodine</button>
+                <button id="anodeButton" onclick="lodgeAnodeChoice(4)">Oxygen gas</button>
+                </div>
+                <div id="cathodeSuggestions">
+                    <h3>Choose a product that will be produced at the cathode</h3>
+                    <button id="cathodeButton" onclick="lodgeCathodeChoice(0)">Hydrogen gas</button>
+                    <button id="cathodeButton" onclick="lodgeCathodeChoice(1)">Copper metal</button>
+                    <button id="cathodeButton" onclick="lodgeCathodeChoice(2)">Lead metal</button>
+                    <button id="cathodeButton" onclick="lodgeCathodeChoice(3)">Sodium metal</button>
+                    <button id="cathodeButton" onclick="lodgeCathodeChoice(4)">Aluminium metal</button>
+                    <button id="cathodeButton" onclick="lodgeCathodeChoice(5)">Potassium metal</button>
+                </div>
+            </div>
+            <div id="elecLayoutLeft100">
+                <h3>Get the answers and a new question</h3>
+                <button onClick="checkChoice()">Check the answer</button>
+                <button onClick="displayAnswerExplanation()">See the answer explained</button>
+                <button onClick="displayQuestion()">Next Question</button>
+            </div>
+            
+         <footer>
+                <h3>Website Navigation Area</h3>
+                 <p>
+                    <button onclick="href=window.location.href='../KS4Chemistry.html'">GCSE Chemistry Page</button>
+               
+                   <button onclick="href=window.location.href='../ks4chemistry/electrolysis1.html'">Electrolysis Page</button> 
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
