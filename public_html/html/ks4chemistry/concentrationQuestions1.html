@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+CEP 2021
+-->
+<html>
+    <head>
+        <title>concentration questions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>Concentration 
+                <img src="../../images/concentration/concTriangle1.png" height="150" width="200" alt="missing"></h1>
+            </header>
+            <div>
+                <h3>Working out molar concentrations</h3>
+                <div id="layoutLeft45">
+                <ol>
+                    <li><h3>Convert all volumes to decimeters cubed dm<sup>3</sup> </h3>
+                        1dm<sup>3</sup> = 1000cm<sup>3</sup>
+                        
+                    </li>
+                    <li>
+                        <h3>Work out the number of moles of substance</h3>
+                        Moles = mass / relative molecular mass
+                    </li>
+                    <li>
+                        <h3>Calculate concentration</h3>
+                        Divide the number of moles by the volume<br>
+                        concentration = moles/volume
+                    </li>
+                </ol>
+                </div>
+                <div id="layoutRight45Pink">
+                    <div id="layoutLeft100">
+                    <h3>Examples</h3>
+                    <button id="concButton"  onclick="concExample(1)">Example 2</button>
+                    <button  id="concButton" onclick="concExample(2)">Example 3</button>
+                    <button  id="concButton" onclick="concExample(3)">Example 4</button>
+                    <button  id="concButton" onclick="concExample(4)">Example 5</button>
+                    <button  id="concButton" onclick="concExample(0)">Example 1</button>
+                    </div>
+                    <div id ="concQuestion">
+                        <b>Example 1</b><br>
+                        Calculate the concentration in moles per dm<sup>3</sup> of a 
+                        salt water solution where 58.5g of sodium chloride are dissolved
+                        in 500cm<sup>3</sup> water
+                        
+                    </div>
+                    <div>
+                    <ol>
+                        <li>
+                           <h4>Volume in dm<sup>3</sup></h4>
+                            <div id="concVolume">
+                                Convert 500cm<sup>3</sup> to dm<sup>3</sup><br>
+                                Divide by 1000<br>
+                                Volume = 500/1000 = 0.5dm<sup>3</sup>
+                            </div> 
+                        </li> 
+                        <li>
+                                <h4>Number of Moles</h4>
+                            <div id="concMoles">
+                                Molecular mass of sodium chloride<br>
+                                Formula is NaCl<br>
+                                Relative atomic mass chlorine is 35.5<br>
+                                Relative atomic mass of sodium is 23.0<br>
+                                Relative molecular mass NaCl = 35.5 + 23.0 = 58.5<br>
+                                Moles = mass/relative molecular mass<br>
+                                Moles = 58.5/58.5 = 1mol
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Concentration </h4>
+                            <div id="concConcentration">
+                                concentration = moles/volume<br>
+                                concentration = 1/0.5 = 2.0mol/dm<sup>3</sup><br>
+                                = 2M
+                            </div>
+                        
+                        </li>
+                    </ol>
+                    </div>
+                    
+                </div>
+            </div>
+            <footer>
+                <h3>Navigation Area</h3>
+                <p><button onclick="href=window.location.href='../KS4Chemistry.html'">GCSE Chemistry Page</button>
+                <button onclick="href=window.location.href='quantitativeChemistry1.html'">Quantitative Chemistry Page</button>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
