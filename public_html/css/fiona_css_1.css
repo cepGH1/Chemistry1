@@ -99,6 +99,7 @@ header{
     background-color: #ffffcc;
        
     min-width: 100%;
+    min-height: 100px;
     text-align: center;
     padding: 10px;
 }
@@ -387,6 +388,7 @@ header{
     padding: 5px;
     background-color: powderblue;
     cursor: pointer;
+     margin-left: 2px;
 }
 #layoutLeft25Pastel{
     float:left;
@@ -452,6 +454,7 @@ header{
     background-color: powderblue;
     cursor: pointer;
     border: #2080D0 groove;
+    margin-left: 2px;
 }
 #layoutLeft30Pastel{
     float: left;
@@ -463,6 +466,7 @@ header{
     background-color: lemonchiffon;
     cursor: auto;
     border: burlywood solid;
+     margin-left: 2px;
 }
 #layoutRight30{
     float:right;
@@ -696,8 +700,11 @@ header{
 #definitions{
     color: orchid;
     cursor: pointer;
+   
     
-    
+}
+#definitions:hover{
+    color: red;
 }
 #definitionsGlossary{
     color: orchid;
