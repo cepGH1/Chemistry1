@@ -9,6 +9,7 @@ GCSE Chemistry
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <link rel='stylesheet' type="text/css" href="../../css/titration.css">
         <script src="../../javascript/titration1.js"></script>
     </head>
     <body>
@@ -25,21 +26,23 @@ GCSE Chemistry
             </div>
             
             <div id="test"></div>
-            <div>
+            <div id="layoutLeft45">
                 <h2>Working out a titration</h2>
                 <ol>
                     <li>
-                        <h3>Write a word equation</h3> <button onclick="wordEquations()">help</button>
+                        <h3>Write a word equation</h3> 
+                        
+                        <button onclick="word1()">help</button>
                     </li>
                     <li>
                         <h3 onclick="test()">Write a balanced formula equation</h3>
-                        <button onclick="formulaEquations()">help</button>
+                        <button onclick="formulas1()">help</button>
                     </li>
                     
                     <li>
                         <h3>Work out the molar equivalences</h3>
                         How many moles of the unknown reacts with 1 mole of the standard<br>
-                        <button onclick="molarEquivalences()">help</button>
+                        <button onclick="molars()">help</button>
                     </li>
                     <li>
                         <h3>Work out how many moles of the standard substance has been used</h3>
@@ -55,11 +58,91 @@ GCSE Chemistry
                     </li>
                 </ol>
             </div>
+            <div id="layoutRight45Pink">
+                <div id="layoutLeft100">
+                    <h3>Titration Calculation Examples</h3>
+                    <button id="titrationButton"  onclick="titrationExample(1)">Example 2</button>
+                    <button  id="titrationButton" onclick="titrationExample(2)">Example 3</button>
+                    <button  id="titrationButton" onclick="titrationExample(3)">Example 4</button>
+                    <button  id="titrationButton" onclick="titrationExample(4)">Example 5</button>
+                </div>
+                <div>
+                    <div id="titrationQuestion"> 
+                        Example 1<br> 
+                        35cm<sup>3</sup> of 1M hydrochloric acid was used to completely
+                    neutralise a 250cm<sup>3</sup> sample of sodium hydroxide solution. 
+                    What was the concentration of the sodium hydroxide solution?</div>
+                    <ol>
+                        <li>
+                            <h4>Word Equation</h4>
+                            <div id="titrationWordEquation"> Hydrochloric acid + sodium hydroxide --> sodium chloride + water</div>
+                        </li>
+                        <li>
+                            <h4>Formula Equation</h4>
+                            <div id="titrationFormulaEquation">HCl(aq) + NaOH(aq) --> NaCl(aq) + H<sub>2</sub>O(l)</div>
+                        </li>
+                        <li>
+                            <h4>molar equivalence</h4>
+                            <div id="titrationMolarEquivalence"> 1:1<br>
+                                1 mole of hydrochloric acid neutralises 1 mole of sodium hydroxide</div>
+                        </li>
+                        <li>
+                            <h4>How many moles have been used in this reaction</h4>
+                            <div id="titrationKnownMoles">We know the concentration and the volume of the hydrochloric acid<br>
+                            Concentration = 1M (1 mole per decimeter cubed, dm<sup>3</sup>)<br>
+                            Volume = 35cm<sup>3</sup> = 35/1000dm<sup>3</sup> = 0.035dm<sup>3</sup><br>
+                            All volumes need to be converted and used in dm<sup>3</sup><br>
+                            Number of moles of hydrochloric acid (conc x volume = moles)<br>
+                            = 1 x 0.035 = 0.035 moles of HCl</div>
+                        </li>
+                        <li>
+                            <h4>How many moles of the unknown would be neutralised</h4>
+                            <div id="titrationUnknownMoles">The equivalence HCl:NaOH is 1:1, so<br>
+                                0.035 moles of HCl would neutralise 0.035 moles of NaOH</div>
+                            
+                        </li>
+                        <li>
+                            <h4>Concentration of the unknown solution</h4>
+                            <div id="titrationAnswer">concentration = moles/volume<br>
+                            moles = 0.035 moles<br>
+                            volume = 250cm<sup>3</sup> = 250/1000 dm<sup>3</sup> = 0.25dm<sup>3</sup><br>
+                            concentration = 0.035/0.25 = 0.14M</div>
+                        </li>
+                    </ol>
+                </div>
+                
+            </div>
+            <div id="layoutLeft45">
+                <h3>Titration Questions</h3>
+                <ol>
+                <li>Work out the concentration of a solution of sodium hydroxide if
+                25cm<sup>3</sup> of this solution were completely and exactly neutralised
+                by 25cm<sup>3</sup> of a 1M hydrochloric acid solution.<br>
+                <button onclick="showQuestionAnswers(1)">Get Answer</button><br>
+                <div id="answerQuestion1"></div>
+                </li>
+                <li>
+                    Work out the concentration of a solution of sodium hydroxide if
+                25cm<sup>3</sup> of this solution were completely and exactly neutralised
+                by 25cm<sup>3</sup> of a 1M sulfuric acid solution.<br>
+                <button onclick="showQuestionAnswers(2)">Get Answer</button><br>
+                <div id="answerQuestion2"></div>
+                </li>
+                <li>
+                    Work out the concentration of a solution of sodium hydroxide if
+                25cm<sup>3</sup> of this solution were completely and exactly neutralised
+                by 25cm<sup>3</sup> of a 1M nitric acid solution.<br>
+                <button onclick="showQuestionAnswers(3)">Get Answer</button><br>
+                <div id="answerQuestion3"></div>
+                </li>
+                </ol>
+            </div>
             <div><p></p></div>
             <footer>
                 <h3>Navigation Area</h3>
                 <p>
                     <button onclick="href=window.location.href='../KS4Chemistry.html'">GCSE Chemistry Page</button>
+                    <button onclick="href=window.location.href='quantitativeChemistry1.html'">Quantitative Chemistry Page</button>
                     <button onclick="href=window.location.href='neutralisationReactions.html'">Neutralisation Reactions</button>
                 </p>
             </footer>
