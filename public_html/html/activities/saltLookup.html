@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+CEP 2021
+-->
+<html>
+    <head>
+        <title>Making salts</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <link rel='stylesheet' type="text/css" href="../../css/saltLookup.css">
+        <script src="../../javascript/saltLookup.js"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>Salt Lookup</h1>
+            </header>
+            <div id="metals">
+                <h3>Metal   <span id="selectedMetal"></span> </h3>
+                <div id="sodium" onclick="selectMetal('sodium')">
+                    <h3>sodium</h3>
+                </div>
+                <div id="magnesium" onclick="selectMetal('magnesium')">
+                    <h3>magnesium</h3>
+                </div>
+                <div id="aluminium" onclick="selectMetal('aluminium')">
+                    <h3>aluminium</h3>
+                </div>
+                <div id="potassium" onclick="selectMetal('potassium')">
+                    <h3>potassium</h3>
+                </div>
+            </div>
+            <div id="nonMetals">
+                <h3>Non-metal  <span id="selectedNonMetal"></span>     </h3>
+                <div id="Oxide" onclick="selectNonMetal('Oxide')">
+                    <h3>Oxygen</h3>
+                </div> 
+                <div id="Chloride" onclick="selectNonMetal('Chloride')">
+                    <h3>Chlorine</h3>
+                </div>
+                <div id="Bromide" onclick="selectNonMetal('Bromide')">
+                    <h3>Bromine</h3>
+                </div>
+            </div>
+            <div id="salts">
+                
+            </div>
+             <footer>
+                <h3>Website Navigation Area</h3>
+                 <p>
+                    <button onclick="href=window.location.href='../KS4Chemistry.html'">GCSE Chemistry Page</button>
+               
+                   
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
