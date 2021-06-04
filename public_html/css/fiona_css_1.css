@@ -299,13 +299,15 @@ header{
 #layoutLeft60{
      float:left;
     width:60%;
-    padding:5px; 
+    padding:5px;
+    
 }
 #layoutLeft45{
     float:left;
     width:45%;
     border-style:none;
     padding: 5px;
+    margin-left:5px;
 }
 #layoutLeft100Blue{
     float:left;
@@ -357,6 +359,8 @@ header{
     padding: 5px;
     background-color: powderblue;
     cursor: pointer;
+    margin:5px;
+    
 }
 
 #layoutLeft45Pastel{
@@ -368,6 +372,7 @@ header{
     padding: 5px;
     background-color: lemonchiffon;
     cursor: auto;
+    margin-left:5px;
     
 }
 

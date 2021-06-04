@@ -1,0 +1,87 @@
+/*
+CEP 2021
+*/
+/* 
+    Created on : 25 May 2021, 14:26:18
+    Author     : clare
+*/
+
+
+#metals{
+    width: 15%;
+    background-color: yellow;
+    float:left;
+    margin:3px;
+    
+}
+#sodium{
+    
+   background-color: white;
+   cursor: pointer;
+}
+
+#magnesium{
+    
+   background-color: white;
+   cursor: pointer;
+}
+
+#aluminium{
+    
+   background-color: white;
+   cursor: pointer;
+}
+
+#potassium{
+    
+   background-color: white;
+   cursor: pointer;
+}
+
+#nonMetals{
+    width:80%;
+    float:right;
+    height:15%;
+    background-color: pink;
+    margin:3px;
+}
+#selectedMetal{
+    color:red;
+}
+#selectedNonMetal{
+    color:red;
+}
+#Chloride{
+    width:10%;
+    background-color: white;
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+#Chloride:active{
+    background-color:red;
+}
+#Bromide{
+    width:10%;
+    background-color: white;
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}
+#Bromide:active{
+    background-color: red;
+}
+#Oxide{
+    width:10%;
+    background-color: white;
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}
+#salts{
+    width:80%;
+    float:right;
+    
+    background-color: #FFF1FF;
+}
