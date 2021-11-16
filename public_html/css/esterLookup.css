@@ -1,0 +1,81 @@
+/*
+CEP November 2021
+*/
+/* 
+    Created on : 15 Nov 2021, 10:46:20
+    Author     : user
+*/
+body{
+    background-color:white;
+}
+#oates {
+    
+}
+
+#thyls{
+    
+}
+
+#ester{
+    
+}
+#esterName{
+    float:left;
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 50px;
+}
+#basic100{
+    width:100%;
+    min-width: 100%;
+    background-color: white;
+}
+#left20{
+    width: 20%;
+    float:left;
+    background-color: white;
+    
+}
+#blank{
+    background-color: white;
+     height:100px;
+    width: 200px;
+    float: left;
+}
+#button{
+    background-color: cornflowerblue;
+    height:100px;
+    width: 200px;
+    float:left;
+}
+#button:hover{
+    background-color: greenyellow;
+}
+#button:focus {
+  background-color:orange;
+}
+#ateButton{
+    background-color: yellow;
+    height:100px;
+    width: 200px;
+    float:left;
+    
+    
+}
+#ateButton:hover{
+    background-color: greenyellow;
+    
+    
+}
+#ateButton:focus{
+    background-color: orange;
+    
+    
+}
+#ateButton:active{
+    content:"";
+    background-color: turquoise;
+    
+    
+}
+
