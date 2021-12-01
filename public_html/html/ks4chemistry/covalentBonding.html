@@ -9,6 +9,7 @@ Chemistry
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <script src="../../javascript/definitions.js"></script>
     </head>
     <body>
         <div>
@@ -16,11 +17,12 @@ Chemistry
                 <h1>Covalent Bonding</h1>
                 
             </header>
-            <div>
+            <div id="layoutLeft100">
                 <p>
-                    A bond between atoms made by sharing electrons between them.
-                    One or more electrons from the outer shell of each atom appear
-                    to be in both atoms outer shell.
+                    Outer shell electrons are shared by the atoms bonded together.
+                    Each atom 'sees' that there are enough electrons in it's outer shell
+                    to make that shell appear to be full. 
+                    
                 </p>
                
                 <p>
@@ -33,24 +35,69 @@ Chemistry
                     and quartz are all covalently bonded. 
                 </p>
             </div>
-          
+                <div id="layoutLeft100"> There are three different ways to represent a single covalent bond<br>
+                    <div id='layoutLeft30'>
+                        <h4>Dot Cross Diagrams</h4>
+                        <img src="../../images/dotCrossDiagrams/fluorine.png" height="150" alt="missing image">
+                    </div>
+                    <div id="layoutLeft30">
+                        <h4>Ball and Stick Diagrams</h4>
+                        <img src="../../images/ballAndStick/fluorine.png" height="150" alt="missing image">
+                    </div>
+                    <div id="layoutLeft30">
+                        <h4>Displayed Formulae</h4>
+                        <img src="../../images/displayedFormula/fluorine.png" height="150" alt="missing image">
+                    </div>
+                
+            
+                </div>
             <div>
-                <h3>Dot Cross Diagrams of Some Covalent Molecules</h3>
+                <h3>Dot Cross Diagrams for some simple Covalent Molecules</h3>
                 <p>The sharing of electrons can be shown using dot cross diagrams. The electrons 
                 are shown as dots and crosses. the shared ones appear in the overlap of the circles
                 that represent the outer electron shell of the atoms.</p>
-                
-                <div id="layoutLeft25">
+                <p>
+                    Simple covalent molecules have low boiling points because there are
+                    not many forces between the molecules, just weak 
+                    <a id="definitions" onclick="definitionPopUp('./definitions/vanDerWaals.html')">van der Waals forces</a>
+                </p>
+                <div id='layoutLeft100'>
+                <div id="layoutLeft45">
+                    <h4>The hydrogen atom</h4>
                     <p>A Hydrogen atom has a single electron in it's outer shell </p>
                     <img src="../../images/electronicStructure/hydrogen2.png" height="100" width="100">
                 </div>
+                
+                <div id='layoutLeft25'>
+                    <h4>Hydrogen gas</h4>
+                    <p>Hydrogen usually exists as a diatomic molecule with a single covalent
+                    bond between the atoms. Each atom shares it's electron. So both atoms 
+                    appear to have a full outer electronic shell</p>
+                </div>
+                <div id='layoutLeft25'>
+                    <img src="../../images/dotCrossDiagrams/hydrogen.png" height="120" width="200">
+                </div>
+                </div>
                 <div id="layoutLeft100">
-                <button onclick="href=window.location.href='../../images/dotCrossDiagrams/fluorine.png'">Fluorine</button>
-                <button onclick="href=window.location.href='../../images/dotCrossDiagrams/hydrogenChloride1.png'">Hydrogen Chloride gas HCl</button>
+                <button onclick="definitionPopUp('../../images/dotCrossDiagrams/fluorine.png')">Fluorine</button>
+                <button onclick="definitionPopUp('../../images/dotCrossDiagrams/hydrogenChloride1.png')">Hydrogen Chloride gas HCl</button>
+                <button onclick="definitionPopUp('../../images/dotCrossDiagrams/methane.png')">methane</button>
+                <button onclick="definitionPopUp('../../images/dotCrossDiagrams/water.png')">water</button>
+                <button onclick="definitionPopUp('../../images/dotCrossDiagrams/hydrogen.png')">hydrogen</button>
+                <button onclick="definitionPopUp('../../images/dotCrossDiagrams/oxygen.jpg')">oxygen</button>
                 <p></p>
+                
                 </div>
             </div>
-             <div id="layoutLeft"><p></p></div>
+            <div>
+                <h3>Giant Covalent Lattices</h3>
+                Diamond and silicon dioxide are probably the best known examples of
+                structures that use covalent bonding to form a neverending framework
+                between their atoms. These compounds have high melting points because it
+                is difficult to break the atoms apart. If you break one of the bonds
+                then there are still 3 more in place and that bond might well reform 
+                before you break the next.
+            </div>
             <footer>
                 <h3>Navigation Area</h3>
                 <p><button onclick="href=window.location.href='../KS4Chemistry.html'">GCSE Chemistry Page</button>
