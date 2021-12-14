@@ -12,10 +12,11 @@ var questions = ["Separate a mixture of salt and sand",
     "Separating a mixture of alkanes",
     "Separating a mixture of dyes", 
     "Getting a sample of pure copper sulphate from the mixture \n\
-produced after reacting copper carbonate with sulphuric acid"];
+produced after reacting copper carbonate with sulphuric acid",
+    "Produce fresh water from sea water"];
 
 //The answers, referring to the id of the technique in hte techniques array
-var answers = [1, 2, 4, 3];
+var answers = [1, 2, 4, 3, 0];
 
 //the current technique choice is
 var techniqueChoice = 5;
@@ -27,7 +28,7 @@ var questionNumber = 0;
 function displayQuestion(){
     document.getElementById("sepFeedback2").innerHTML = "";
     document.getElementById("chosenTechnique").innerHTML = "";
-    if(questionNumber<3){
+    if(questionNumber<4){
         questionNumber ++;
     }
     else{
@@ -91,6 +92,12 @@ function displayAnswerExplanation(){
     }
     if(questionNumber === 1){
         sepExplanationPopUp("../../resources/separationAndPurification/mixtureOfAlkanes.pdf");
+    }
+    if(questionNumber === 2){
+        sepExplanationPopUp("../../resources/separationAndPurification/paperChromatography.pdf");
+    }
+     if(questionNumber === 4){
+        sepExplanationPopUp("../../resources/separationAndPurification/freshWaterFromSeaWater.pdf");
     }
 }
 
