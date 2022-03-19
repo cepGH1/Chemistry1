@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+CEP 2022
+-->
+<html>
+    <head>
+        <title>Hydrocarbon Names</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="../../css/fiona_css_1.css">
+        <link rel='stylesheet' type="text/css" href="../../css/textareas1.css">
+        <script src="../../javascript/namingOrganics.js"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>How to name some simple organic molecules</h1>
+            </header>
+            <div id='layoutLeft30'>
+                <ol>
+                    <li><h4>Count how many carbons are joined one after another 
+                        (like a string of beads)- This is the carbon backbone of the molecule</h4>
+                        1 single carbon = meth<br>
+                        2 carbons = eth<br>  
+                        3 carbons = prop<br> 
+                        4 carbons = but<br>
+                        5 carbons = pent<br>
+                        6 carbons = hex<br>
+                        <h4>This makes the group name of the compound</h4>
+                    </li>
+                    <li>
+                        <h4>Look for other groups in the molecule</h4>
+                        only hydrogen atoms, it's an alkane: name ending  : yl<br>
+                        OH group, it's an alcohol: name ending : anol<br>
+                        double bond between carbons, it's an alkene: name ending : ene<br>
+                        triple bond between carbons, it's an alkyne: name ending : yne<br>
+                        COOH group, it's a carboxylic acid: name ending : anoic acid<br>
+                    </li>
+                    <li>
+                        <h4>Remember to name extra methyl (or other alkyl) groups attached to the carbon backbone</h4>
+                    </li>
+                </ol>
+            </div>
+            <div id='layoutLeft30'>
+                <div id='layoutLeft100'>
+                <h3>Examples</h3>
+                <button id='familyGroupButtons' onclick="showSubButtons(1)">Meth</button>
+                <button id='familyGroupButtons' onclick='showSubButtons(2)'>Eth</button>
+                <button id='familyGroupButtons' onclick="showSubButtons(3)">Prop</button>
+                    <button id='familyGroupButtons' onclick='showSubButtons(4)'>But</button>
+                </div>
+                <div id='backboneGroups'>
+                    
+                </div>
+                
+            </div>
+            <div id='layoutLeft30'>
+                <div id='namedOrganicExamples'>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
