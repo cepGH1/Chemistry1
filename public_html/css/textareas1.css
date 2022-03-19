@@ -84,3 +84,31 @@ GCSE Chemistry
     border-style:none;
     padding: 5px;
 }
+
+/*
+ids for namingHydrocarbons.html 
+*/
+
+#familyGroupButtons{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    cursor:pointer;
+    
+}
+#familyGroupButtons:hover{
+    background-color: red;
+}
+#familyGroupButtons:focus{
+    background-color: orange;
+}
+
+#moleculeNameButton{
+    height: 80px;
+    width: 100px;
+    background-color:white;
+    cursor:pointer;
+}
+#moleculeNameButton:focus{
+    background-color: orange;
+}
