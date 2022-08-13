@@ -248,8 +248,7 @@ header{
     width : 10%;
 }
 
-#pictorialEdition{
-   
+.pictorialEdition{
     float:left;
        border-style: groove;
     border-color:  #2080D0;
@@ -258,7 +257,6 @@ header{
     cursor: pointer;
     min-height:120px;
     min-width:120px;
-  
 }
 #success{
     
